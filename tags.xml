@@ -1,0 +1,2547 @@
+<Tags>
+   <Tag name="WR_edge" path="_types_" type="UDT_DEF">
+      <Property name="Value"/>
+      <Property name="DataType">2</Property>
+      <Parameters>
+         <Property name="server" type="String">Ignition OPC-UA Server</Property>
+         <Property name="device" type="String">[1215C]</Property>
+      </Parameters>
+      <Tag name="Alarms" path="" type="Folder"/>
+      <Tag name="CalParam" path="" type="Folder"/>
+      <Tag name="Control" path="" type="Folder"/>
+      <Tag name="Info" path="" type="Folder"/>
+      <Tag name="Process Values" path="" type="Folder"/>
+      <Tag name="Retained Values" path="" type="Folder"/>
+      <Tag name="Setpoints" path="" type="Folder"/>
+      <Tag name="AlarmWord0" path="Alarms" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">2</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MW200</Property>
+      </Tag>
+      <Tag name="AlarmWord1" path="Alarms" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">2</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MW202</Property>
+      </Tag>
+      <Tag name="AlarmWord2" path="Alarms" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">2</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MW204</Property>
+      </Tag>
+      <Tag name="AlarmWord3" path="Alarms" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">2</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MW206</Property>
+      </Tag>
+      <Tag name="AlarmWord4" path="Alarms" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">2</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MW208</Property>
+      </Tag>
+      <Tag name="AlarmWord5" path="Alarms" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">2</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MW234</Property>
+      </Tag>
+      <Tag name="AntiScaleTankLvl_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL172</Property>
+      </Tag>
+      <Tag name="AntiScaleTankLvl_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL168</Property>
+      </Tag>
+      <Tag name="Chlorine_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL124</Property>
+      </Tag>
+      <Tag name="Chlorine_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL120</Property>
+      </Tag>
+      <Tag name="Chlorine_PID_Integral" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL212</Property>
+      </Tag>
+      <Tag name="Chlorine_PID_Proportional" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL208</Property>
+      </Tag>
+      <Tag name="ChlorineTankLvl_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL180</Property>
+      </Tag>
+      <Tag name="ChlorineTankLvl_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL176</Property>
+      </Tag>
+      <Tag name="Dist_WaterFlow_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL196</Property>
+      </Tag>
+      <Tag name="Dist_WaterFlow_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL192</Property>
+      </Tag>
+      <Tag name="Dist_Wtr_Rate_K_Factor" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL164</Property>
+      </Tag>
+      <Tag name="Dist_Wtr_Tot_K_Factor" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL160</Property>
+      </Tag>
+      <Tag name="Distrib_Flow_Scaled_Value" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1068</Property>
+      </Tag>
+      <Tag name="DistribFlow_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL116</Property>
+      </Tag>
+      <Tag name="DistribFlow_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL112</Property>
+      </Tag>
+      <Tag name="DistribPress_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL108</Property>
+      </Tag>
+      <Tag name="DistribPress_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL104</Property>
+      </Tag>
+      <Tag name="InletPress_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL4</Property>
+      </Tag>
+      <Tag name="InletPress_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL0</Property>
+      </Tag>
+      <Tag name="O3_PID_Integral" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL204</Property>
+      </Tag>
+      <Tag name="O3_PID_Proportional" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL200</Property>
+      </Tag>
+      <Tag name="ORP_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL12</Property>
+      </Tag>
+      <Tag name="ORP_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL8</Property>
+      </Tag>
+      <Tag name="OutletTDS_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL92</Property>
+      </Tag>
+      <Tag name="OutletTDS_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL88</Property>
+      </Tag>
+      <Tag name="PH_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL132</Property>
+      </Tag>
+      <Tag name="PH_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL128</Property>
+      </Tag>
+      <Tag name="Post5MicronPress_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL68</Property>
+      </Tag>
+      <Tag name="Post5MicronPress_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL64</Property>
+      </Tag>
+      <Tag name="Post5MicronTDS_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL76</Property>
+      </Tag>
+      <Tag name="Post5MicronTDS_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL72</Property>
+      </Tag>
+      <Tag name="PostInjPress_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL28</Property>
+      </Tag>
+      <Tag name="PostInjPress_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL24</Property>
+      </Tag>
+      <Tag name="Pre1MicronPress_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL228</Property>
+      </Tag>
+      <Tag name="Pre1MicronPress_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL224</Property>
+      </Tag>
+      <Tag name="Pre5MicronPress_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL60</Property>
+      </Tag>
+      <Tag name="Pre5MicronPress_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL56</Property>
+      </Tag>
+      <Tag name="PreCarbonPress_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL52</Property>
+      </Tag>
+      <Tag name="PreCarbonPress_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL48</Property>
+      </Tag>
+      <Tag name="PreIronPress_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL44</Property>
+      </Tag>
+      <Tag name="PreIronPress_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL40</Property>
+      </Tag>
+      <Tag name="PreMediaPress_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL36</Property>
+      </Tag>
+      <Tag name="PreMediaPress_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL32</Property>
+      </Tag>
+      <Tag name="ProcessFlow_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL100</Property>
+      </Tag>
+      <Tag name="ProcessFlow_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL96</Property>
+      </Tag>
+      <Tag name="ProductTankLvl_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL148</Property>
+      </Tag>
+      <Tag name="ProductTankLvl_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL144</Property>
+      </Tag>
+      <Tag name="ProductTDS_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL140</Property>
+      </Tag>
+      <Tag name="ProductTDS_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL136</Property>
+      </Tag>
+      <Tag name="RawWaterLvl_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL20</Property>
+      </Tag>
+      <Tag name="RawWaterLvl_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL16</Property>
+      </Tag>
+      <Tag name="RO_HPPress_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL84</Property>
+      </Tag>
+      <Tag name="RO_HPPress_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL80</Property>
+      </Tag>
+      <Tag name="ROPress_PID_Integral" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL220</Property>
+      </Tag>
+      <Tag name="ROPress_PID_Proportional" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL216</Property>
+      </Tag>
+      <Tag name="WasteTankLvl_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL156</Property>
+      </Tag>
+      <Tag name="WasteTankLvl_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL152</Property>
+      </Tag>
+      <Tag name="WaterTemprature_Max" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL188</Property>
+      </Tag>
+      <Tag name="WaterTemprature_Min" path="CalParam" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB2,REAL184</Property>
+      </Tag>
+      <Tag name="DInput_Anti_Scale_Tank_Low_Level_Input" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX0.1</Property>
+      </Tag>
+      <Tag name="DInput_Carbon_Filter_Home_Pos" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX1.5</Property>
+      </Tag>
+      <Tag name="DInput_Chlorine_Tank_Low_Level" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX0.3</Property>
+      </Tag>
+      <Tag name="DInput_CircPump_MSP_Tripped" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX2.4</Property>
+      </Tag>
+      <Tag name="DInput_DistPump_MSP_Tripped" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX2.5</Property>
+      </Tag>
+      <Tag name="DInput_Door_Monitor_Switch" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX2.3</Property>
+      </Tag>
+      <Tag name="DInput_EStop" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX0.7</Property>
+      </Tag>
+      <Tag name="DInput_Fill_Station_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX1.1</Property>
+      </Tag>
+      <Tag name="DInput_Iron_Filter_Home_Pos" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX1.4</Property>
+      </Tag>
+      <Tag name="DInput_MM_Filter_Home_Pos" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX1.3</Property>
+      </Tag>
+      <Tag name="Dinput_PH_Tnk_Lo_Alm" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX2.7</Property>
+      </Tag>
+      <Tag name="DInput_PH_Tnk_Lo_Warning" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX2.6</Property>
+      </Tag>
+      <Tag name="DInput_Power_Fault" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX0.6</Property>
+      </Tag>
+      <Tag name="DInput_Prod_Wtr_Lvl_High" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX2.2</Property>
+      </Tag>
+      <Tag name="DInput_Product_Tank_Low_Level_Input" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX0.2</Property>
+      </Tag>
+      <Tag name="DInput_Raw_Wtr_Lvl_Hi_Sw" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX2.1</Property>
+      </Tag>
+      <Tag name="DInput_Raw_Wtr_Lvl_Low_Sw" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX2.0</Property>
+      </Tag>
+      <Tag name="DInput_Waste_Tank_High_Level" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX0.4</Property>
+      </Tag>
+      <Tag name="DOutput_03_Gen_Pwr" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX10.1</Property>
+      </Tag>
+      <Tag name="DOutput_Anti_Scale_Pump" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX10.6</Property>
+      </Tag>
+      <Tag name="DOutput_Bad_Water_SV" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX11.2</Property>
+      </Tag>
+      <Tag name="DOutput_BotFill_Tap_SV" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX12.6</Property>
+      </Tag>
+      <Tag name="DOutput_Carbon_Backwash" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX10.5</Property>
+      </Tag>
+      <Tag name="DOutput_Chlor_Inject_Pump" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX11.4</Property>
+      </Tag>
+      <Tag name="DOutput_Distribution_Pump" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX11.5</Property>
+      </Tag>
+      <Tag name="DOutput_Flush_Valve" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX12.5</Property>
+      </Tag>
+      <Tag name="DOutput_Good_Water_SV" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX11.1</Property>
+      </Tag>
+      <Tag name="DOutput_Green_Light" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX12.1</Property>
+      </Tag>
+      <Tag name="DOutput_HighConcentrate_Vavle" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX13.0</Property>
+      </Tag>
+      <Tag name="DOutput_Inlet_SV" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX10.0</Property>
+      </Tag>
+      <Tag name="DOutput_Iron_Backwash" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX10.4</Property>
+      </Tag>
+      <Tag name="DOutput_MM_Backwash" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX10.3</Property>
+      </Tag>
+      <Tag name="DOutput_Prod_Dist_Valve" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX11.7</Property>
+      </Tag>
+      <Tag name="DOutput_Prod_Dump_Valve" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX12.0</Property>
+      </Tag>
+      <Tag name="DOutput_Prod_Tank_Circ_Pump" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX11.3</Property>
+      </Tag>
+      <Tag name="DOutput_Red_Light" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX12.3</Property>
+      </Tag>
+      <Tag name="DOutput_RO_Bypass_SV" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX12.7</Property>
+      </Tag>
+      <Tag name="DOutput_RO_HP_Pump" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX11.0</Property>
+      </Tag>
+      <Tag name="DOutput_RO_Inlet_SV" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX10.7</Property>
+      </Tag>
+      <Tag name="Doutput_SandSepBlowDwnValve" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX13.1</Property>
+      </Tag>
+      <Tag name="DOutput_Supply_Pump" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX10.2</Property>
+      </Tag>
+      <Tag name="DOutput_Waste_Disch_Pump" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX11.6</Property>
+      </Tag>
+      <Tag name="DOutput_Yellow_Light" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX12.2</Property>
+      </Tag>
+      <Tag name="HMI_AntiScale_Pmp_Start_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX101.6</Property>
+      </Tag>
+      <Tag name="HMI_AntiScale_Pmp_Stop_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX101.7</Property>
+      </Tag>
+      <Tag name="HMI_BadWtr_Vlv_Close_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX102.7</Property>
+      </Tag>
+      <Tag name="HMI_BadWtr_Vlv_Open_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX102.6</Property>
+      </Tag>
+      <Tag name="HMI_BotFill_Vlv_Close_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX104.3</Property>
+      </Tag>
+      <Tag name="HMI_BotFill_Vlv_Open_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX104.2</Property>
+      </Tag>
+      <Tag name="HMI_Carbon_Bkwsh_Start_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX105.0</Property>
+      </Tag>
+      <Tag name="HMI_CarbonFilter_Force_Home_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX108.5</Property>
+      </Tag>
+      <Tag name="HMI_Circ_Pmp_Start_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX103.6</Property>
+      </Tag>
+      <Tag name="HMI_Circ_Pmp_Stop_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX103.7</Property>
+      </Tag>
+      <Tag name="HMI_Disch_Pmp_Start_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX104.4</Property>
+      </Tag>
+      <Tag name="HMI_Disch_Pmp_Stop_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX104.5</Property>
+      </Tag>
+      <Tag name="HMI_Distrib_Pmp_Start_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX103.0</Property>
+      </Tag>
+      <Tag name="HMI_Distrib_Pmp_Stop_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX103.1</Property>
+      </Tag>
+      <Tag name="HMI_Distrib_Vlv_Close_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX103.5</Property>
+      </Tag>
+      <Tag name="HMI_Distrib_Vlv_Open_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX103.4</Property>
+      </Tag>
+      <Tag name="HMI_Dump_Vlv_Close_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX103.3</Property>
+      </Tag>
+      <Tag name="HMI_Dump_Vlv_Open_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX103.2</Property>
+      </Tag>
+      <Tag name="HMI_Ext_Pump_Start_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX100.4</Property>
+      </Tag>
+      <Tag name="HMI_Ext_Pump_Stop_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX100.5</Property>
+      </Tag>
+      <Tag name="HMI_GoodWtr_Vlv_Close_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX102.5</Property>
+      </Tag>
+      <Tag name="HMI_GoodWtr_Vlv_Open_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX102.4</Property>
+      </Tag>
+      <Tag name="HMI_HiConcentrateStart_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX5.6</Property>
+      </Tag>
+      <Tag name="HMI_Inlet_Vlv_Close_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX100.7</Property>
+      </Tag>
+      <Tag name="HMI_Inlet_Vlv_Open_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX100.6</Property>
+      </Tag>
+      <Tag name="HMI_Iron_Bkwsh_Start_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX104.7</Property>
+      </Tag>
+      <Tag name="HMI_IronFilter_Force_Home_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX108.4</Property>
+      </Tag>
+      <Tag name="HMI_Man_Dump_Valve_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX106.0</Property>
+      </Tag>
+      <Tag name="HMI_Man_O3_Output_Add_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX105.2</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="HMI_Man_O3_Output_Sub_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX105.3</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="HMI_MM_Bkwsh_Start_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX104.6</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="HMI_MMFilter_Force_Home_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX108.3</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="HMI_O3_Start_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX101.0</Property>
+      </Tag>
+      <Tag name="HMI_O3_Stop_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX101.1</Property>
+      </Tag>
+      <Tag name="hmi_PB_FreezeModeOff" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX78.4</Property>
+      </Tag>
+      <Tag name="HMI_PB_FreezeModeOn" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX78.3</Property>
+      </Tag>
+      <Tag name="HMI_ProdWater_Disable_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX106.7</Property>
+      </Tag>
+      <Tag name="HMI_ProdWater_Enable_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX106.6</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="HMI_ProdWater_Manual_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX107.3</Property>
+      </Tag>
+      <Tag name="HMI_RawWater_Auto_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX107.0</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="HMI_RawWater_Manual_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX107.1</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="HMI_RawWaterFill_Disable_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX106.5</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="HMI_RawWaterFill_Enable_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX106.4</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="HMI_Reset_Filter_Wtr_Total_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX5.7</Property>
+      </Tag>
+      <Tag name="HMI_Reset_Wtr_Total_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX105.1</Property>
+      </Tag>
+      <Tag name="HMI_RO_Auto_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX100.0</Property>
+      </Tag>
+      <Tag name="HMI_RO_Disable_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX100.3</Property>
+      </Tag>
+      <Tag name="HMI_RO_Enable_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX100.2</Property>
+      </Tag>
+      <Tag name="HMI_RO_HP_Pmp_Start_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX102.0</Property>
+      </Tag>
+      <Tag name="HMI_RO_HP_Pmp_Stop_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX102.1</Property>
+      </Tag>
+      <Tag name="HMI_RO_Manual_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX100.1</Property>
+      </Tag>
+      <Tag name="HMI_ROBypass_Vlv_Close_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX102.3</Property>
+      </Tag>
+      <Tag name="HMI_ROBypass_Vlv_Open_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX102.2</Property>
+      </Tag>
+      <Tag name="HMI_ROInlet_Vlv_Close_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX101.5</Property>
+      </Tag>
+      <Tag name="HMI_ROInlet_Vlv_Open_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX101.4</Property>
+      </Tag>
+      <Tag name="HMI_Run_Flush_Button" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX105.7</Property>
+      </Tag>
+      <Tag name="HMI_SandSepBlowdwn_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX108.2</Property>
+      </Tag>
+      <Tag name="HMI_SodHypchlor_Pmp_Start_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX104.0</Property>
+      </Tag>
+      <Tag name="HMI_SodHypchlor_Pmp_Stop_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX104.1</Property>
+      </Tag>
+      <Tag name="HMI_Supply_Pump_Start_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX101.2</Property>
+      </Tag>
+      <Tag name="HMI_Supply_Pump_Stop_Man_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX101.3</Property>
+      </Tag>
+      <Tag name="HMI_Sys_Empty_SW" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX107.4</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="In_Freeze_Mode" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX145.2</Property>
+      </Tag>
+      <Tag name="Iron_Auto_BW_CntDwn_Time" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL276</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Iron_Bkwsh_Time_Act_Min" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1112</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="MM_Auto_BW_CntDwn_Time" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL272</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="MM_Bkwsh_Time_Act_Min" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1104</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Prod_Water_Auto_Bit" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX144.4</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="ProdWater_Auto_PB" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX107.2</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="ProdWater_Enabled_In_Auto_Bit" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX144.2</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="Raw_Water_Auto_Bit" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX144.3</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="RawWater_Enabled_In_Auto_Bit" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX144.1</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="RO_Enabled_In_Auto_Bit" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX140.1</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="RO_In_Auto_Bit" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MX140.0</Property>
+         <Property name="SourceDataType">6</Property>
+      </Tag>
+      <Tag name="Screen_No" path="Control" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">2</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL181</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Transmitter Verison" path="Info" type="DB">
+         <Property name="Value">0</Property>
+         <Property name="DataType">7</Property>
+      </Tag>
+      <Tag name="Update File" path="Info" type="DB">
+         <Property name="Value">0</Property>
+         <Property name="DataType">7</Property>
+      </Tag>
+      <Tag name="Update Tags" path="Info" type="DB">
+         <Property name="Value">0</Property>
+         <Property name="DataType">7</Property>
+      </Tag>
+      <Tag name="1MicronFilter_Diff_Pressure" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL310</Property>
+      </Tag>
+      <Tag name="AntiScaleTank_Lvl_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1108</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Carbon_Auto_BW_CntDwn_Time" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL280</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Carbon_Bkwsh_Time_Act_Min" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1116</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Chlor_PID_Output_Real" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1144</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Chlorine_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1072</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="ChlorineTank_Lvl_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1120</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Distrib_Press_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1064</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="DistWater_Flow_Scaled" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1148</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Inlet_Press_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1012</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="O3_PID_Output_Real" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1140</Property>
+      </Tag>
+      <Tag name="ORP_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1020</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Outlet_TDS_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1056</Property>
+      </Tag>
+      <Tag name="PH_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1076</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Post5Micron_Press_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1044</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Post5Micron_TDS_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1048</Property>
+      </Tag>
+      <Tag name="PostInject_Press_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1016</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Pre1Micron_Press_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1162</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Pre5Micron_Press_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1040</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="PreCarbon_Press_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1036</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="PreIron_Press_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1032</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="PreMedia_Press_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1028</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Process_Flow_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1060</Property>
+      </Tag>
+      <Tag name="Prod_Wtr_Mtr_Total_NonResettable" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL268</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+      </Tag>
+      <Tag name="Prod_Wtr_Mtr_Total_Resetable" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL264</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+      </Tag>
+      <Tag name="Product_TDS_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1080</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="ProductTank_Lvl_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1084</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="RawWater_Lvl_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1024</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="RO_HP_Press_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1052</Property>
+      </Tag>
+      <Tag name="ROPress_PID_Output_Real" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1152</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="WasteTank_Lvl_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1088</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Water_Temp_Scaled_Value" path="Process Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}MREAL1124</Property>
+         <Property name="RawHigh">27648.0</Property>
+         <Property name="ScaledHigh">100.0</Property>
+         <Property name="SourceDataType">5</Property>
+      </Tag>
+      <Tag name="Carbon_Backwash_State" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">1</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,I16</Property>
+      </Tag>
+      <Tag name="Carbon_Power_Lost_BW_State" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">1</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,I24</Property>
+      </Tag>
+      <Tag name="Freeze_Shut_Dist_Valve" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,X26</Property>
+      </Tag>
+      <Tag name="Iron_Backwash_State" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">1</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,I14</Property>
+      </Tag>
+      <Tag name="Iron_Power_Lost_BW_State" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">1</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,I22</Property>
+      </Tag>
+      <Tag name="Lifetime_Prod_Water_Total" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,REAL8</Property>
+      </Tag>
+      <Tag name="Man_Chlor_PID_SP" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,REAL30</Property>
+      </Tag>
+      <Tag name="Man_O3_PID_SP" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,REAL34</Property>
+      </Tag>
+      <Tag name="Man_ROPress_PID_SP" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,REAL38</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_State" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">1</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,I12</Property>
+      </Tag>
+      <Tag name="MM_Power_Lost_BW_State" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">1</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,I20</Property>
+      </Tag>
+      <Tag name="Power_Was_Lost_Bit" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,X18</Property>
+      </Tag>
+      <Tag name="Power_Was_Lost_Bit_1" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,X18.1</Property>
+      </Tag>
+      <Tag name="Power_Was_Lost_Bit_2" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,X18.2</Property>
+      </Tag>
+      <Tag name="Prod_Water_Total" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,REAL4</Property>
+      </Tag>
+      <Tag name="Prod_Water_Total_Filter" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,REAL0</Property>
+      </Tag>
+      <Tag name="Rig_Unit_Number" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">1</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,I28</Property>
+      </Tag>
+      <Tag name="ROHPPump_Man_Auto_Switch" path="Retained Values" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">6</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB52,X26.1</Property>
+      </Tag>
+      <Tag name="A_AntiScaleTank_Lvl_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL172</Property>
+      </Tag>
+      <Tag name="A_AntiScaleTankLow_Alarm_Delay" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL316</Property>
+      </Tag>
+      <Tag name="A_ChlorineTank_Lvl_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL180</Property>
+      </Tag>
+      <Tag name="A_ChlorTankLevelLow_Alarm_Delay" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL364</Property>
+      </Tag>
+      <Tag name="A_DistrPmpPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL256</Property>
+      </Tag>
+      <Tag name="A_Flow_Not_Zero_For_X_Min" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL572</Property>
+      </Tag>
+      <Tag name="A_FreeChlorine_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL236</Property>
+      </Tag>
+      <Tag name="A_FreeChlorine_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL224</Property>
+      </Tag>
+      <Tag name="A_InletPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL4</Property>
+      </Tag>
+      <Tag name="A_ORP_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL52</Property>
+      </Tag>
+      <Tag name="A_ORP_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL44</Property>
+      </Tag>
+      <Tag name="A_Outlet_TDS_Hi" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL376</Property>
+      </Tag>
+      <Tag name="A_PH_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL216</Property>
+      </Tag>
+      <Tag name="A_PH_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL208</Property>
+      </Tag>
+      <Tag name="A_Post5MicronPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL140</Property>
+      </Tag>
+      <Tag name="A_Post5MicronTDS_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL168</Property>
+      </Tag>
+      <Tag name="A_PreCarbonPress_Diff_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL108</Property>
+      </Tag>
+      <Tag name="A_PreIronPress_Diff_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL84</Property>
+      </Tag>
+      <Tag name="A_PreMediaPress_Diff_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL60</Property>
+      </Tag>
+      <Tag name="A_ProcessFlow_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL200</Property>
+      </Tag>
+      <Tag name="A_ProdTank_TDS_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL304</Property>
+      </Tag>
+      <Tag name="A_ProdTankLvl_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL264</Property>
+      </Tag>
+      <Tag name="A_RawWtrLvl_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL24</Property>
+      </Tag>
+      <Tag name="A_RawWtrLvl_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL16</Property>
+      </Tag>
+      <Tag name="A_RO_HPPumpPress_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL156</Property>
+      </Tag>
+      <Tag name="A_WasteTankLvl_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL296</Property>
+      </Tag>
+      <Tag name="A_Water_Temp_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL188</Property>
+      </Tag>
+      <Tag name="A_WaterTempl_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL564</Property>
+      </Tag>
+      <Tag name="A_WaterTempl_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL560</Property>
+      </Tag>
+      <Tag name="Air_Comp_RunTime1" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL660</Property>
+      </Tag>
+      <Tag name="Air_Comp_RunTime2" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL664</Property>
+      </Tag>
+      <Tag name="Air_Comp_StopTime1" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL668</Property>
+      </Tag>
+      <Tag name="Air_Comp_StopTime2" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL672</Property>
+      </Tag>
+      <Tag name="Bottle_Fill_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL336</Property>
+      </Tag>
+      <Tag name="Carbon_Auto_Bkwsh_Delay_Hours" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL120</Property>
+      </Tag>
+      <Tag name="Carbon_Backwash_Minutes" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL116</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step1_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL476</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step2_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL480</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step2_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL484</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step3_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL488</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step3_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL492</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step4_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL496</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step4_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL500</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step5_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL504</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step5_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL508</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step6_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL512</Property>
+      </Tag>
+      <Tag name="Carbon_Backwsh_Step6_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL516</Property>
+      </Tag>
+      <Tag name="Carbon_Max_Bkwsh_Min_Till_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL124</Property>
+      </Tag>
+      <Tag name="CarbonFltrDiffPress_StartBackwash" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL112</Property>
+      </Tag>
+      <Tag name="Chlorine_Value_SP" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL340</Property>
+      </Tag>
+      <Tag name="DistrPmpStartPress" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL244</Property>
+      </Tag>
+      <Tag name="DistrPmpStopPress" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL248</Property>
+      </Tag>
+      <Tag name="Flush_Valve_Hold_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL616</Property>
+      </Tag>
+      <Tag name="FreeChlorHi_MaxTime_Dump" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL312</Property>
+      </Tag>
+      <Tag name="Freeze_RawWtrLvl_StartFill" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL600</Property>
+      </Tag>
+      <Tag name="Freeze_RO_Auto_Flush_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL592</Property>
+      </Tag>
+      <Tag name="Freeze_TimeBetweenRO_AutoFlush" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL596</Property>
+      </Tag>
+      <Tag name="Freeze_WasteTankLvl_Pump_Start" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL604</Property>
+      </Tag>
+      <Tag name="High_Concentrate_Off_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,DI620</Property>
+      </Tag>
+      <Tag name="High_Concentrate_ON_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,DI624</Property>
+      </Tag>
+      <Tag name="Iron_Auto_Bkwsh_Delay_Hours" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL96</Property>
+      </Tag>
+      <Tag name="Iron_Backwash_Minutes" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL92</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step1_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL432</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step2_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL436</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step2_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL440</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step3_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL444</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step3_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL448</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step4_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL452</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step4_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL456</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step5_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL460</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step5_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL464</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step6_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL468</Property>
+      </Tag>
+      <Tag name="Iron_Backwsh_Step6_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL472</Property>
+      </Tag>
+      <Tag name="Iron_Max_Bkwsh_Min_Till_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL100</Property>
+      </Tag>
+      <Tag name="IronFltrDiffPress_StartBackwash" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL88</Property>
+      </Tag>
+      <Tag name="Man_Chlorine_Output_PCT" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL360</Property>
+      </Tag>
+      <Tag name="Man_O3_Output_PCT" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL356</Property>
+      </Tag>
+      <Tag name="Man_PH_Injection_Pump_ Spd_Output" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL640</Property>
+      </Tag>
+      <Tag name="Man_ROPress_Output_PCT" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL540</Property>
+      </Tag>
+      <Tag name="Min_Chlor_Circ_Setpoint" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL556</Property>
+      </Tag>
+      <Tag name="MinTimeForChlorineChange_Sec" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL528</Property>
+      </Tag>
+      <Tag name="MM_Auto_Bkwsh_Delay_Hours" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL72</Property>
+      </Tag>
+      <Tag name="MM_Backwash_Minutes" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL68</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step1_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL388</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step2_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL392</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step2_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL396</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step3_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">2</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL400</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step3_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL404</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step4_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL408</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step4_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL412</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step5_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL416</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step5_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL420</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step6_Dly_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL424</Property>
+      </Tag>
+      <Tag name="MM_Backwsh_Step6_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL428</Property>
+      </Tag>
+      <Tag name="MM_Max_Bkwsh_Min_Till_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL76</Property>
+      </Tag>
+      <Tag name="MMFltrDiffPress_StartBackwash" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL64</Property>
+      </Tag>
+      <Tag name="Norm_RawWtrLvl_StartFill" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL584</Property>
+      </Tag>
+      <Tag name="Norm_RO_Auto_Flush_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL576</Property>
+      </Tag>
+      <Tag name="Norm_TimeBetweenRO_AutoFlush" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL580</Property>
+      </Tag>
+      <Tag name="Norm_WasteTankLvl_Pump_Start" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL588</Property>
+      </Tag>
+      <Tag name="O3_ORP_Value_SP" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL344</Property>
+      </Tag>
+      <Tag name="PH_SP" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL628</Property>
+      </Tag>
+      <Tag name="PH_Tank_Low_Alarm_Delay" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL656</Property>
+      </Tag>
+      <Tag name="PH_Tank_Low_Warning_Delay" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL652</Property>
+      </Tag>
+      <Tag name="Pre1Micron_Alarm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL636</Property>
+      </Tag>
+      <Tag name="Pre1Micron_Alarm_Delay" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL648</Property>
+      </Tag>
+      <Tag name="Pre1Micron_Shutdown" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL632</Property>
+      </Tag>
+      <Tag name="Pre1Micron_Shutdown_Delay" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL644</Property>
+      </Tag>
+      <Tag name="Pre5MicronPress_Diff_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL132</Property>
+      </Tag>
+      <Tag name="Prod_Tank_TDS_Low" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL520</Property>
+      </Tag>
+      <Tag name="ProdTankLvl_Min_BckWashAllowed" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL280</Property>
+      </Tag>
+      <Tag name="ProdTankLvl_RO_Start" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL272</Property>
+      </Tag>
+      <Tag name="ProdTankLvl_RO_Stop" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">2</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL276</Property>
+      </Tag>
+      <Tag name="RawWtrLvl_MinRunLvl" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL28</Property>
+      </Tag>
+      <Tag name="RawWtrLvl_StartFill" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL32</Property>
+      </Tag>
+      <Tag name="RawWtrLvl_StopFill" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL36</Property>
+      </Tag>
+      <Tag name="Recirc_Restert_Delay_minutes" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL332</Property>
+      </Tag>
+      <Tag name="Retained_Chlor_PID_Output" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL352</Property>
+      </Tag>
+      <Tag name="Retained_O3_PID_Output" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL348</Property>
+      </Tag>
+      <Tag name="Retained_ROPress_PID_Output" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL536</Property>
+      </Tag>
+      <Tag name="RO_Auto_Flush_Time" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL324</Property>
+      </Tag>
+      <Tag name="RO_HP_Pump_Press_SP" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL532</Property>
+      </Tag>
+      <Tag name="S_AntiScaleTank_Lvl_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL176</Property>
+      </Tag>
+      <Tag name="S_AntiScaleTankLow_Shutdown_Delay" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL320</Property>
+      </Tag>
+      <Tag name="S_ChlorineTank_Lvl_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL184</Property>
+      </Tag>
+      <Tag name="S_ChlorTankLevelLow_Shutdown_Delay" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL368</Property>
+      </Tag>
+      <Tag name="S_Dump_time_Too_Long_Min" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL384</Property>
+      </Tag>
+      <Tag name="S_FreeChlorine_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL240</Property>
+      </Tag>
+      <Tag name="S_FreeChlorine_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL228</Property>
+      </Tag>
+      <Tag name="S_Outlet_TDS_Hi_Dly_Min" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL380</Property>
+      </Tag>
+      <Tag name="S_Post5MicronPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL144</Property>
+      </Tag>
+      <Tag name="S_ProdTank_Hi_Alarm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL524</Property>
+      </Tag>
+      <Tag name="S_ProdTank_TDS_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL308</Property>
+      </Tag>
+      <Tag name="S_ProdTankLvl_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL268</Property>
+      </Tag>
+      <Tag name="S_RawWtrLvl_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL20</Property>
+      </Tag>
+      <Tag name="S_RO_HPPumpPress_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL160</Property>
+      </Tag>
+      <Tag name="S_WaterTempl_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL568</Property>
+      </Tag>
+      <Tag name="SandSepBlowdwnDelay_Hrs" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL544</Property>
+      </Tag>
+      <Tag name="SandSepBlowdwnRunTime_Sec" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL548</Property>
+      </Tag>
+      <Tag name="TDSOutlet_Bad" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL196</Property>
+      </Tag>
+      <Tag name="TDSOutlet_Good" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL192</Property>
+      </Tag>
+      <Tag name="TimeBetweenRO_AutoFlush" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL328</Property>
+      </Tag>
+      <Tag name="Use_Freeze_Settings_End_Temp" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL612</Property>
+      </Tag>
+      <Tag name="Use_Freeze_Settings_Start_Temp" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL608</Property>
+      </Tag>
+      <Tag name="W_DistrPmpPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL252</Property>
+      </Tag>
+      <Tag name="W_FreeChlorine_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL232</Property>
+      </Tag>
+      <Tag name="W_FreeChlorine_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL220</Property>
+      </Tag>
+      <Tag name="W_InletPress_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL8</Property>
+      </Tag>
+      <Tag name="W_InletPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL0</Property>
+      </Tag>
+      <Tag name="W_ORP_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL48</Property>
+      </Tag>
+      <Tag name="W_ORP_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL40</Property>
+      </Tag>
+      <Tag name="W_Outlet_TDS_Hi" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL372</Property>
+      </Tag>
+      <Tag name="W_PH_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL212</Property>
+      </Tag>
+      <Tag name="W_PH_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL204</Property>
+      </Tag>
+      <Tag name="W_Post5MicronPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL136</Property>
+      </Tag>
+      <Tag name="W_Post5MicronTDS_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">2</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL164</Property>
+      </Tag>
+      <Tag name="W_PostInjPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL12</Property>
+      </Tag>
+      <Tag name="W_Pre5MicronPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL128</Property>
+      </Tag>
+      <Tag name="W_PreCarbonPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL104</Property>
+      </Tag>
+      <Tag name="W_PreIronPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL80</Property>
+      </Tag>
+      <Tag name="W_PreMediaPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL56</Property>
+      </Tag>
+      <Tag name="W_ProdTank_TDS_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL300</Property>
+      </Tag>
+      <Tag name="W_ProdTankLvl_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL260</Property>
+      </Tag>
+      <Tag name="W_RO_HPPumpPress_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL152</Property>
+      </Tag>
+      <Tag name="W_RO_HPPumpPress_Low_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL148</Property>
+      </Tag>
+      <Tag name="W_WasteTankLvl_Hi_Alm" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL292</Property>
+      </Tag>
+      <Tag name="WasteTankLvl_Pump_Start" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL284</Property>
+      </Tag>
+      <Tag name="WasteTankLvl_Pump_Stop" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,REAL288</Property>
+      </Tag>
+      <Tag name="XmitterFaultTime_Sec" path="Setpoints" type="OPC">
+         <Property name="Value"/>
+         <Property name="DataType">4</Property>
+         <Property name="OPCServer">{server}</Property>
+         <Property name="OPCItemPath">{device}DB3,DI552</Property>
+      </Tag>
+   </Tag>
+</Tags>
